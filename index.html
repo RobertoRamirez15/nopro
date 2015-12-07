@@ -1,0 +1,213 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Catalogo de calzado</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/mitema.min.css" />
+<link rel="stylesheet" href="css/jquery.structure-1.4.5.min.css" />
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+
+
+
+</head>
+
+<body>
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header"  >
+   <h1>CATALOGO DE CALZADO</h1>
+  </div>
+  
+ <div data-role="main" class="ui-content">
+ 
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+     <a href="#PaginaMI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TIPO DE MARCA</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" id="btntodo">
+<h2>TODO EL CALZADO</h2>
+
+</a>
+</li>
+
+
+</ul>
+
+
+
+
+ </div>
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4></h4>
+</div>
+
+</div>
+
+
+
+<div data-role="page" id="PaginaMI" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>TIPO DE MARCAS </h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" id="btnnike">
+<h2>NIKE</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" id="btnadidas">
+<h2> ADIDAS</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" id="btnpuma">
+<h2> PUMA</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" id="btnvans">
+<h2> VANS</h2>
+
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+
+<div data-role="page" id="todo" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> TODO EL CALZADO</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+ <div id="contenido_calzado">
+ 
+ </div>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+
+
+
+
+
+<div data-role="page" id="nike" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> Calzado Nike</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+ <div id="contenido_nike">
+ 
+ </div>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+
+<div data-role="page" id="adidas" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> Calzado Adidas</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+ <div id="contenido_adidas">
+ 
+ </div>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+
+
+
+
+<div data-role="page" id="puma" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> Calzado Puma</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+ <div id="contenido_puma">
+ 
+ </div>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+
+
+<div data-role="page" id="vans" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> Calzado Vans</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+ <div id="contenido_vans">
+ 
+ </div>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<h4> </h4>
+</div>
+
+</div>
+
+</body>
+</html>
+
+
